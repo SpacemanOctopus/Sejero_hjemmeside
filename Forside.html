@@ -20,43 +20,23 @@
 
 <body>
 
-<nav class="navbar navbar-expand-md">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="Forside.html"> <img class="headerlogo" src="img/Sejerø%20logo%20-%20Hvid.webp" alt="Sejerøs logo"></a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link barlink" aria-current="page" href="Havet.html">Havet</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link barlink" href="Økultur.html">Økultur</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link barlink" href="Bolig.html">Bolig</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link barlink" href="Om%20Sejerø.html">Om Sejerø</a>
-				</li>
-				<li class="nav-item ferrylink align-self-end ps-1 pe-1 rounded-3">
-					<a class="nav-link" href="#">Færge Booking</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
+<div id="navbar"></div>
 
-<div class="video mb-5 d-flex container-fluid bg-danger position-relative">
-<h1 class="videotext position-absolute text-center">Velkommen til Sejerø</h1>
+<div class="video position-relative p-0">
+	<video autoplay muted loop playsinline>
+		<source src="img/Sejerøvideo.mp4" type="video/mp4">
+	</video>
+
+	<h1 class="videotext position-absolute text-center w-100">
+		Velkommen til Sejerø
+	</h1>
 </div>
 
-<div class="container-fluid mb-2">
+<div class="container-fluid landingbuttons mt-4 mb-2">
 	<div class="row align-items-center">
 
 		<div class="col-auto">
-			<img class="cardicons rounded-3" src="img/Bolig ikon.webp">
+			<a href="Bolig.html"><img class="cardicons rounded-3" src="img/Bolig ikon.webp" alt="Ikon for boligsiden"></a>
 		</div>
 
 		<div class="col">
@@ -75,7 +55,7 @@
 	<div class="row align-items-center">
 
 		<div class="col-auto">
-			<img class="cardicons rounded-3" src="img/Havet%20Ikon.webp">
+			<a href="Havet.html"><img class="cardicons rounded-3" src="img/Havet%20Ikon.webp" alt="Ikon for havet-siden"></a>
 		</div>
 
 		<div class="col">
@@ -92,7 +72,7 @@
 	<div class="row align-items-center">
 
 		<div class="col-auto">
-			<img class="cardicons rounded-3" src="img/Økultur%20ikon.webp">
+			<a href="Økultur.html"><img class="cardicons rounded-3" src="img/Økultur%20ikon.webp" alt="Ikon for økultur siden"></a>
 		</div>
 
 		<div class="col">
@@ -109,7 +89,7 @@
 	<div class="row align-items-center">
 
 		<div class="col-auto">
-			<img class="cardicons rounded-3" src="img/Sejerø%20Vector.webp">
+			<a href="Om%20Sejerø.html"><img class="cardicons rounded-3" src="img/Sejerø%20Vector.webp" alt="Ikon for om sejerø siden"></a>
 		</div>
 
 		<div class="col">
@@ -118,7 +98,6 @@
 				Sejerøs herlige historie strækker sig så langt tilbage som til 1200-tallet. Klik her for at læse mere.
 			</p>
 		</div>
-
 	</div>
 </div>
 
@@ -126,7 +105,7 @@
 <h3 class="mt-5">Kommende begivenheder</h3>
 	<div class="row align-items-center">
 		<div class="col-auto">
-			<img class="eventimg" src="img/Sejerø%20Fyr.jpg">
+			<img class="eventimg" src="img/Sejerø%20Fyr.jpg" alt="Billede af det givende event">
 		</div>
 
 		<div class="col">
@@ -145,7 +124,7 @@
 <div class="container mt-4">
 	<div class="row align-items-center">
 		<div class="col-auto">
-			<img class="eventimg" src="img/Sejerø%20Fyr.jpg">
+			<img class="eventimg" src="img/Sejerø%20Fyr.jpg" alt="Billede af det givende event">
 		</div>
 
 		<div class="col">
@@ -163,7 +142,7 @@
 <div class="container mt-4">
 	<div class="row align-items-center">
 		<div class="col-auto">
-			<img class="eventimg" src="img/Sejerø%20Fyr.jpg">
+			<img class="eventimg" src="img/Sejerø%20Fyr.jpg" alt="Billede af det givende event">
 		</div>
 
 		<div class="col">
@@ -176,24 +155,19 @@
 			</a>
 		</div>
 	</div>
+	<div class="col">
+		<a class="mt-5 btn button link-dark" href="Økultur.html">
+			Se alle begivenheder
+		</a>
+	</div>
 </div>
 
-<img class="img-fluid bottomimg mt-4" src="img/Sejerø%20Sommerhus%20indeni.jpg">
+<img class="img-fluid bottomimg mt-4" src="img/Sejerø%20Sommerhus%20indeni.jpg" alt="Billede af folk på vandretur">
 
-<div class="pt-3 pb-5 position-relative container-fluid bottomfooter">
-	<p class="text-white">
-		Kontakt os på <br>
-		Tlf: +12 3456 7890 <br>
-		Email: sejero@sejero.dk
-	</p>
-	<p class="pb-3 text-white">
-		Find os på <br>
-		<i class="fa-brands fa-facebook"></i> @sejerodk <br>
-		<i class="fa-brands fa-square-instagram"></i> @sejerodk
-	</p>
-	<img class="øsammenslutningen position-absolute" src="img/Ø-sammenslutningenlogo.png">
-</div>
+<div id="footer"></div>
 
+<script src="js/navbar.js"></script>
+<script src="js/footer.js"></script>
 <script src="https://kit.fontawesome.com/3164eb5ac8.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
