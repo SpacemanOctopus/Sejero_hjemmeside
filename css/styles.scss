@@ -69,18 +69,20 @@ p{
 	color: white;
 	text-align: end;
 	font-family: Albert Sans, sans-serif;
+	align-items: end;
 }
 
 .ferrylink{
 	background-color: #FFB55C;
 	text-align: end;
 	font-family: Albert Sans, sans-serif;
+	align-items: end;
 }
 
 .video {
 	position: relative;
 	width: 100%;
-	height: 60vh;
+	height: 50vh;
 	overflow: hidden;
 }
 
@@ -102,10 +104,11 @@ p{
 	z-index: 2;
 }
 
-.cardicons{
-	height: 128px;
-	width: 138px;
-	background-color: #FFB55C;
+.cardicons {
+	width: 139px;
+	height: 139px;
+	background-color: #ffb55c;
+	object-fit: cover;
 }
 
 .eventimg{
@@ -121,6 +124,7 @@ p{
 .bottomimg{
 	width: 100%;
 	height: 213px;
+	object-fit: cover;
 }
 
 .bottomfooter{
@@ -134,9 +138,21 @@ p{
 	left: 265px;
 }
 
-@media (min-width: 1024px){
-	.landingbuttons{
-	display: flex;
-	justify-content: center;
-	}
+.temperaturbar{
+	background-color: #005C95;
+	height: 167px;
+}
+
+.havetimage{
+	height: 401px;
+	object-fit: cover;
+}
+
+.pageimage{
+	height: 248px;
+	object-fit: cover;
+}
+
+.fishlist{
+	margin-left: 25px;
 }
