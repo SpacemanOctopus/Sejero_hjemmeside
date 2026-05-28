@@ -10,7 +10,7 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+        "farve": $cyan-400,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -22,137 +22,155 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .cal-sans-regular {
-	font-family: "Cal Sans", sans-serif;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .albert-sans-subheader {
-				  font-family: "Albert Sans", sans-serif;
-				  font-optical-sizing: auto;
-				  font-weight: 100;
-				  font-style: normal;
-			  }
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
 
 .inter-body {
-			font-family: "Inter", sans-serif;
-			font-optical-sizing: auto;
-			font-weight: 100;
-			font-style: normal;
-		}
-
-h1{
-	font-family: Cal Sans, sans-serif;
-	font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
 
-h3{
-	font-family: Albert Sans, sans-serif;
-	font-size: 24px;
+h1 {
+  font-family: Cal Sans, sans-serif;
+  font-size: 24px;
 }
 
-p{
-	font-family: Inter, sans-serif;
-	font-size: 14px;
+h3 {
+  font-family: Albert Sans, sans-serif;
+  font-size: 24px;
 }
 
-.navbar{
-	background-color: #005C95;
+p {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
 }
 
-.headerlogo{
-	width: 100px;
-	height: 100%;
+.navbar {
+  background-color: #005C95;
 }
 
-.barlink{
-	color: white;
-	text-align: end;
-	font-family: Albert Sans, sans-serif;
-	align-items: end;
+.headerlogo {
+  width: 100px;
+  height: 100%;
 }
 
-.ferrylink{
-	background-color: #FFB55C;
-	text-align: end;
-	font-family: Albert Sans, sans-serif;
-	align-items: end;
+.barlink {
+  color: white;
+  text-align: end;
+  font-family: Albert Sans, sans-serif;
+  align-items: end;
+}
+
+.ferrylink {
+  background-color: #FFB55C;
+  text-align: end;
+  font-family: Albert Sans, sans-serif;
+  align-items: end;
 }
 
 .video {
-	position: relative;
-	width: 100%;
-	height: 50vh;
-	overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
 }
 
 .video video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .videotext {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white;
-	z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
 }
 
 .cardicons {
-	width: 139px;
-	height: 139px;
-	background-color: #ffb55c;
-	object-fit: cover;
+  width: 139px;
+  height: 139px;
+  background-color: #ffb55c;
+  object-fit: cover;
 }
 
-.eventimg{
-	height: 138px;
-	width: 138px;
+.eventimg {
+  height: 138px;
+  width: 138px;
 }
 
-.button{
-	background-color: #ffb55c;
-	font-family: Inter, sans-serif;
+.button {
+  background-color: #ffb55c;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
 }
 
-.bottomimg{
-	width: 100%;
-	height: 213px;
-	object-fit: cover;
+.bottomimg {
+  width: 100%;
+  height: 213px;
+  object-fit: cover;
 }
 
-.bottomfooter{
-	background-color: #00A86B;
+.bottomfooter {
+  background-color: #00A86B;
 }
 
-.øsammenslutningen{
-	width: 139px;
-	height: 139px;
-	bottom: 80px;
-	left: 265px;
+.øsammenslutningen {
+  width: 139px;
+  height: 139px;
+  bottom: 80px;
+  left: 265px;
 }
 
-.temperaturbar{
-	background-color: #005C95;
-	height: 167px;
+.temperaturbar {
+  background-color: #005C95;
+  height: 167px;
+  color: white;
 }
 
-.havetimage{
-	height: 401px;
-	object-fit: cover;
+.strandimage {
+  height: 401px;
+  width: 100%;
+  object-fit: contain;
 }
 
-.pageimage{
-	height: 248px;
-	object-fit: cover;
+.pageimage {
+  height: 248px;
+  width: 100%;
+  object-fit: cover;
 }
 
-.fishlist{
-	margin-left: 25px;
+.ul, li {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+}
+
+.fa-sun {
+  color: #ffb55c;
+  height: 76px;
+  width: 76px;
+}
+
+@media(min-width: 768px) {
+  .havettext {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
 }

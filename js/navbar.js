@@ -23,7 +23,7 @@ document.getElementById("navbar").innerHTML = `
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link barlink" href="Økultur.html">Økultur</a>
+					<a class="nav-link barlink" href="Dagligdagen.html">Dagligdagen</a>
 				</li>
 
 				<li class="nav-item">
@@ -31,7 +31,7 @@ document.getElementById("navbar").innerHTML = `
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link barlink" href="Om Sejerø.html">Om Sejerø</a>
+					<a class="nav-link barlink" href="Historienbag.html">Historien bag</a>
 				</li>
 
 				<li class="nav-item ferrylink align-self-end ps-1 pe-1 rounded-3">
