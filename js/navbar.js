@@ -16,7 +16,7 @@ document.getElementById("navbar").innerHTML = `
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav w-100 justify-content-between">
 
 				<li class="nav-item">
 					<a class="nav-link barlink" href="Havet.html">Havet</a>

@@ -101,8 +101,8 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  z-index: 2;
 }
+
 
 .cardicons {
   width: 139px;
@@ -111,9 +111,31 @@ p {
   object-fit: cover;
 }
 
+@media(min-width: 1024px) {
+  .cardicons {
+    width: 219px;
+    height: 219px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .card-text {
+    width: 219px;
+    height: 219px;
+  }
+}
+
 .eventimg {
   height: 138px;
   width: 138px;
+  object-fit: cover;
+}
+
+@media(min-width: 1024px) {
+  .eventimg {
+    height: 147px;
+    width: 147px;
+  }
 }
 
 .button {
@@ -169,8 +191,40 @@ p {
 }
 
 @media(min-width: 768px) {
-  .havettext {
+  .pagetext {
     padding-left: 90px;
     padding-right: 90px;
   }
+}
+
+@media(min-width: 1024px) {
+  .pagetext {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+}
+
+.eventimg2 {
+  height: 154px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media(min-width: 768px) {
+  .navbar {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .navbar {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+}
+
+.vejrikon{
+  height: 76px;
+  width: 76px;
 }
