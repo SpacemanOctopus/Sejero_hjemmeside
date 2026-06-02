@@ -224,7 +224,24 @@ p {
   }
 }
 
-.vejrikon{
+.vejrikon {
+  fill: #ffb55c;
   height: 76px;
   width: 76px;
+}
+
+@media(min-width: 768px) {
+  .vejrikon {
+    height: 147px;
+    width: 147px;
+
+  }
+}
+
+@media(min-width: 1024px) {
+  .vejrikon {
+    height: 99px;
+    width: 99px;
+
+  }
 }

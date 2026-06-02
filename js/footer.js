@@ -1,5 +1,5 @@
 document.getElementById("footer").innerHTML = `
-<div class="container-fluid bottomfooter pt-3 pb-5">
+<div class="container-fluid pagetext bottomfooter pt-3 pb-5">
     <div class="row g-4">
     <div class="col-12 col-md-4">
     <p class="text-white">
