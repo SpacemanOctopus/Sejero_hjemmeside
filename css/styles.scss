@@ -245,3 +245,19 @@ p {
 
   }
 }
+
+.boligcta {
+  background-color: #00A86B;
+  height: 210px;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+@media(min-width: 1024px) {
+  .boligcta {
+    height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
